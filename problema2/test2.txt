@@ -1,0 +1,38 @@
+ADD_BOOK "dex1" 3
+def1 sin1
+def2 sin2
+def3 sin3
+ADD_BOOK "dex2" 3
+def1 sin1
+def2 sin2
+def3 sin3
+ADD_BOOK "dex3" 3
+def1 sin1
+def2 sin2
+def3 sin3
+ADD_BOOK "dex4" 4
+def1 sin1
+def2 sin2
+def3 sin3
+def4 sin4
+ADD_DEF "dex4" def4 sin5
+GET_DEF "dex4" def4
+RMV_DEF "dex3" def1
+GET_DEF "dex3" def1
+ADD_USER VonB
+ADD_USER VonC
+ADD_USER luka
+BORROW VonB "dex1" 100
+BORROW VonC "dex2" 100
+RETURN VonB "dex1" 1 10
+RETURN VonC "dex2" 1 10
+BORROW VonC "dex4" 100
+RETURN VonB "dex3" 1 10
+RETURN VonC "dex4" 1 10
+BORROW VonB "dex4" 100
+BORROW VonC "dex3" 100
+RETURN VonB "dex4" 1 10
+RETURN VonC "dex3" 1 10
+BORROW luka "dex1" 1
+RETURN luka "dex1" 1000 10
+ADD_USER cirosantilli

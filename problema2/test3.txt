@@ -1,0 +1,40 @@
+ADD_BOOK "dex" 3
+minge rotund
+animal vietate
+pufoaica haina
+GET_DEF "dex" animal
+ADD_DEF "dex" birou masa
+GET_BOOK "dex"
+ADD_DEF "dex" minge bila
+ADD_DEF "dex" minge bila
+RMV_DEF "dex" animal
+GET_DEF "dex" animal
+GET_BOOK "dex"
+GET_BOOK "alabala"
+ADD_USER ana
+ADD_USER ana
+GET_DEF "dex" minge
+GET_BOOK "dex"
+ADD_USER rappyzaur
+BORROW rappyzaur "dex" 10
+RETURN rappyzaur "dex" 8 4
+BORROW ana "dex" 10
+GET_DEF "dex" birou
+RETURN ana "dex" 17 5
+BORROW ana "dex" 10
+RETURN ana "dex" 7 2
+ADD_BOOK "abb" 3
+aa aaa
+bb bbb
+cc ccc
+ADD_BOOK "aab" 3
+aa aaa
+bb bbb
+cc ccc
+ADD_USER lex
+BORROW lex "abb" 10
+BORROW lex "aab" 10
+RETURN lex "abb" 9 7
+BORROW lex "aab" 10
+RETURN lex "aab" 9 7
+EXIT
