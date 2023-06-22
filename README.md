@@ -1,6 +1,6 @@
 # Amazon "Learn and be curious" 
 
-Repository for the code written for the Amazon "Learn and be curious" contest held at my [UNI](https://ac.tuiasi.ro/) for the Data Structures and Algorithms course. 
+Repository for the code written for the Amazon "Learn and be curious" contest held at my [UNI](https://ac.tuiasi.ro/) for the Data Structures and Algorithms course. (2nd place)
 
 ## The first problem (90/100 points)
 ### Code can be found [here](https://github.com/lukapopovici/concurs_amazon_SD/tree/main/problema1/AMAZON).
